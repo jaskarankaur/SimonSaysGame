@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+
+.nav{
+    text-align: right;
+}
+
+.btn{
+    width: 8rem;
+    height: 8rem;
+    border: 3px solid black;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.btn-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.danger{
+    background-color: rgb(196, 3, 3);
+}
+.red{
+    background-color: rgba(231, 39, 167, 0.913);
+}
+.blue{
+    background-color: rgb(136, 136, 230);
+}
+.purple{
+    background-color: rgba(170, 50, 170, 0.936);
+}
+.green{
+    background-color: rgba(52, 169, 130, 0.874);
+}
+
+.flash{
+    background-color: white;
+}
