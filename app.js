@@ -40,12 +40,12 @@ function checkAns(idx){
             setTimeout(levelup, 1000);
         }
     }else{
-        if(level>highestScore){
-            highestScore = level;
+        if(level-1>highestScore){
+            highestScore = level-1;
             let nav = document.querySelector(".nav");
             nav.innerText = `Highest Score : ${highestScore}`;
         }
-        heading.innerText = "Game over. Your score is "+level+
+        heading.innerText = "Game over. Your score is "+(level-1)+
          ". Press any key to start new game.";
 
         let backgr = document.querySelector("body");
